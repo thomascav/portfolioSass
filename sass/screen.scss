@@ -7,7 +7,7 @@
 
 @import "bootstrap";
 
-
+@import "compass/css3";
 
 /*==================================================
 Sass variables
@@ -59,6 +59,7 @@ navbar
           margin-left: 5%;
           margin-bottom: 20px;
           margin-top: 20px;
+          @include box-shadow(black 10px 10px 5px);
       }
         ul,
         ul li,
@@ -166,19 +167,9 @@ h1 {
     width: 100%;
     margin-left: -30px;
     z-index: 500;
-    padding-top: 10px;
+    margin-top: 20px;
     position: relative;
-}
-#name {
-    z-index: 1000;
-    max-width: 100%;
-    min-height: 200px;
-    margin-bottom: 90px;
-    width: 100%;
-    margin-left: -30px;
-    z-index: 1000;
-    padding-top: 10px;
-    position: absolute;
+    @include box-shadow(black 2px 2px 20px);
 }
 .corpus section {
     margin-top: 70px;
