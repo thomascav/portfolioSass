@@ -9666,7 +9666,7 @@ Sass variables
 /*==================================================
 General
 ==================================================*/
-/* line 24, ../sass/screen.scss */
+/* line 25, ../sass/screen.scss */
 body {
   font-size: 62.5%;
   font-family: Comfortaa;
@@ -9677,7 +9677,7 @@ body {
 /*==================================================
 navbar
 ==================================================*/
-/* line 34, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 #cssvmenu {
   padding: 0;
   margin: 0;
@@ -9699,7 +9699,7 @@ navbar
   zoom: 1;
   font-size: 12px;
 }
-/* line 54, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 #cssvmenu #portrait {
   border-radius: 100px;
   border: 5px solid white;
@@ -9708,7 +9708,7 @@ navbar
   margin-bottom: 20px;
   margin-top: 20px;
 }
-/* line 62, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 #cssvmenu ul,
 #cssvmenu ul li,
 #cssvmenu ul ul {
@@ -9716,13 +9716,13 @@ navbar
   margin: 0;
   padding: 0;
 }
-/* line 69, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 #cssvmenu ul {
   position: relative;
   z-index: 597;
   float: left;
 }
-/* line 74, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 #cssvmenu ul li {
   float: left;
   min-height: 1px;
@@ -9731,18 +9731,18 @@ navbar
   position: relative;
   float: none;
 }
-/* line 82, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 #cssvmenu ul li.hover,
 #cssvmenu ul li:hover {
   position: relative;
   z-index: 599;
   cursor: default;
 }
-/* line 88, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 #cssvmenu ul li:hover > ul {
   visibility: visible;
 }
-/* line 91, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 #cssvmenu a {
   display: block;
   padding: 15px 20px;
@@ -9750,69 +9750,69 @@ navbar
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 98, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 #cssvmenu :before {
   content: "";
   display: block;
 }
-/* line 102, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 #cssvmenu .align-right > ul > li > a {
   border-right: none;
 }
-/* line 105, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 #cssvmenu .align-right {
   float: right;
 }
-/* line 108, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 #cssvmenu .align-right li {
   text-align: right;
 }
 
 /* Custom CSS Styles */
-/* line 117, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 #cssvmenu:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 122, ../sass/screen.scss */
+/* line 123, ../sass/screen.scss */
 #cssvmenu > ul {
   width: 200px;
 }
 
-/* line 125, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 #cssvmenu > ul > li > a {
   border-right: 4px solid #D50000;
   color: #ffffff;
   margin-left: 20px;
 }
 
-/* line 130, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 #cssvmenu > ul > li > a:hover {
   color: #ffffff;
 }
 
-/* line 133, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 #cssvmenu > ul > li.active a {
   background: #2E2B26;
   background: #2E2B26;
 }
 
-/* line 137, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
 #cssvmenu > ul > li a:hover,
 #cssvmenu > ul > li:hover a {
   background: #4F4B41;
 }
 
-/* line 141, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 #popover {
   margin-left: 40px;
   margin-bottom: 20px;
   color: black;
 }
 
-/* line 146, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 .popover-title {
   color: black;
 }
@@ -9820,7 +9820,7 @@ navbar
 /*==================================================
 /navbar
 ==================================================*/
-/* line 153, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 h1 {
   text-align: center;
   background-color: #2E2B26;
@@ -9832,7 +9832,7 @@ h1 {
   z-index: 2000;
 }
 
-/* line 163, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 #strings {
   max-width: 100%;
   min-height: 200px;
@@ -9843,31 +9843,31 @@ h1 {
   padding-top: 10px;
 }
 
-/* line 172, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 .corpus section {
   margin-top: 70px;
   margin-bottom: 70px;
 }
 
-/* line 176, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .corpus hr {
   margin-top: 70px;
   margin-bottom: 70px;
 }
 
-/* line 180, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 h3 {
   color: #ffffff;
   margin-top: 50px;
 }
 
-/* line 184, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 188, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 footer {
   background-color: black;
 }
@@ -9875,7 +9875,7 @@ footer {
 /*==================================================
 /corps
 ==================================================*/
-/* line 195, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 .toggableTab {
   border: 2px solid #EBDBC2;
   border-radius: 20px;
@@ -9883,7 +9883,6 @@ footer {
   font-size: 1.6em;
   padding: 20px;
 }
-
 /* line 202, ../sass/screen.scss */
 .toggableTab h4 {
   color: black;
@@ -9891,38 +9890,37 @@ footer {
   text-align: center;
 }
 
-/* line 207, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 .tab-pane {
   background-color: #9C9181;
   padding: 50px;
   border-radius: 0 0 10px 10px;
 }
-
-/* line 212, ../sass/screen.scss */
+/* line 213, ../sass/screen.scss */
 .tab-pane ul li {
   padding-bottom: 10px;
 }
 
-/* line 215, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 .tab-content .active {
   background-color: #9C9181;
 }
 
-/* line 218, ../sass/screen.scss */
+/* line 220, ../sass/screen.scss */
 #mail {
   text-align: center;
   color: #ffffff;
   font-size: 2em;
 }
 
-/* line 223, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 .presentationtravaux ul li {
   color: #ffffff;
   font-size: 1.2em;
   list-style: none;
 }
 
-/* line 228, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 #travaux p {
   font-size: 1.6em;
   color: #ffffff;
