@@ -9,6 +9,7 @@
 
 @import "compass/css3";
 
+@import "font-awesome";
 /*==================================================
 Sass variables
 ==================================================*/
@@ -82,7 +83,7 @@ navbar
           float: none;
         }
         ul li.hover,
-       ul li:hover {
+        ul li:hover {
          position: relative;
          z-index: 599;
          cursor: default;
@@ -138,6 +139,10 @@ navbar
 #cssvmenu > ul > li a:hover,
 #cssvmenu > ul > li:hover a {
   background: #4F4B41;
+}
+#cssvmenu> ul > li > #cursus:hover, #cssvmenu> ul > li > #cursus:focus:hover {
+    color:  #4F4B41 !important;
+    transition: all 0.45s ease 0s;
 }
 #popover {
     margin-left: 40px;
