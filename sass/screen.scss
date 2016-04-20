@@ -9,7 +9,9 @@
 
 @import "compass/css3";
 
-@import "font-awesome";
+
+
+
 /*==================================================
 Sass variables
 ==================================================*/
@@ -20,6 +22,7 @@ $txtcolornorm: #ffffff;
 $fontSizebody: 1.2em;
 $widthCssVMenu: 200px;
 $tabBackground: #9C9181;
+
 /*==================================================
 General
 ==================================================*/
@@ -60,7 +63,7 @@ navbar
           margin-left: 5%;
           margin-bottom: 20px;
           margin-top: 20px;
-          @include box-shadow(black 10px 10px 5px);
+          @include box-shadow(black 3px 10px 5px);
       }
         ul,
         ul li,
